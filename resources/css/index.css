@@ -1,0 +1,137 @@
+@font-face {
+  font-family: ZenKakGothicNew;
+  src: url("fonts/ZenKakuGothicNew-Medium.ttf") format("ttf");
+}
+
+body {
+  background-color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ZenKakGothicNew;
+  font-weight: bold;
+}
+
+#toc {
+  font-weight: bolder;
+  color: black;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+}
+
+#toc ul {
+  list-style-type: none;
+}
+
+#toc ul a:link {
+  color: black;
+}
+
+#toc ul a:visited {
+  color: gray;
+}
+
+#toc ul a:hover {
+  color: green;
+}
+
+.song div,
+.translation div {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 100px;
+  height: 100%;
+}
+
+.lyrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.song,
+.translation {
+  margin: 0 0 0 0;
+  padding: 1%;
+  opacity: 0.75;
+  text-align: center;
+  width: 75%;
+  font-size: larger;
+}
+
+.song {
+  justify-self: right;
+}
+
+.translation {
+  justify-self: left;
+}
+
+.song-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  width: 75%;
+}
+
+.song-title,
+.song-author {
+  color: white;
+  background-color: rgba(149, 15, 15, 0.89);
+  padding: 0.5%;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.song-author {
+  padding-top: 0%;
+  font-size: small;
+  width: 25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  margin: 2% 30%;
+  border-radius: 15px;
+  background-color: rgb(190, 205, 27);
+}
+
+#introduction {
+  /*set a white background before the image around Intro
+    backgound img should go to html here
+    see davie's burgers
+    see project Olivia something for image and background*/
+  background-image: url("../images/japan.avif");
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  color: whitesmoke;
+  /*add shadow on the title to be visible*/
+  padding: 2%;
+  text-align: center;
+}
+
+#introduction h1,
+p {
+  background-color: rgb(186, 22, 22, 0.75);
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  width: fit-content;
+}

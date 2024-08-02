@@ -1,0 +1,26 @@
+SHIFT+ALT+F = beautify code
+
+1 - "About Me" section: see comments in the about.html
+
+introduction:
+        - html: add text to the introduction
+        - css: * set the image to the left and white background on the introduction
+               * see Davie's Burger and Olivia projects for it
+
+NEXT:
+- how to set each lyrics into a separate page?
+- how to connect to a dictionary?
+- new ideas?
+- search bar for songs
+- give feedback on the translations?
+
+
+GITHUB:
+- make a Git branch for my work with comments
+- make a Git branch for GitHub upload: no comments | no about.html
+
+02/08/2024:
+_create 2 Git branches
+_upload the one without comments to GitHub
+_add link to CV
+_choose next project to revise

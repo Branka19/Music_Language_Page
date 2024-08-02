@@ -113,16 +113,11 @@ body {
 }
 
 #introduction {
-  /*set a white background before the image around Intro
-    backgound img should go to html here
-    see davie's burgers
-    see project Olivia something for image and background*/
   background-image: url("../images/japan.avif");
   background-position: center;
   background-size: cover;
   height: 250px;
   color: whitesmoke;
-  /*add shadow on the title to be visible*/
   padding: 2%;
   text-align: center;
 }
